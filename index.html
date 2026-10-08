@@ -9,16 +9,34 @@
     <script src="/script.js" defer></script>
     <title>Conversor de Bases Numéricas</title>
 </head>
-<body>
+<body class="corpo">
     <form class="forma">
 
         <label class="titulo" for="bases"> Escolha a base que deseja converter</label>
+
         <select class="menu" id="bases">
             <option value = "10">Decimal</option>
             <option value ="2">Binária</option>
             <option value ="8">Octal</option>
             <option value ="16">Hexadecimal</option>
         </select>
+
+        <div id="minhaDiv">
+            <input type="text" id="numero" autocomplete="off">
+            <small id="dica"></small>
+        </div>
+        
+        <label class="paraBase" for="destino">Para qual base deseja converter?</label>
+
+            <select class="menu" id="destino">
+                <option value="10">Decimal</option>
+                <option value="2">Binária</option>
+                <option value="8">Octal</option>
+                <option value="16">Hexadecimal</option>
+        </select>
+
+<button type="button" class="botao" id="botao">Converter</button>
+<p id="resultado" class="resultado"></p>
 
     </form>
 </body>
