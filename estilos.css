@@ -1,0 +1,30 @@
+.forma{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    font-weight: bold;
+}
+.titulo{
+    height: 40px;
+    width: 400px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.menu{
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
