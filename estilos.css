@@ -1,7 +1,10 @@
 .corpo{
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    padding-top: 200px;
 }
 .forma{
     padding-top: 10px;
@@ -11,22 +14,17 @@
     justify-content: flex-start;
     min-height: 600px;
     font-weight: bold;
-    background-color: #eee;
     width: 500px;
-    border-radius: 8px;
 }
 .titulo{
     height: 40px;
-    width: 400px;
-    background-color: #ffffff;
+    width: 310px;
+    background-color: #59c0b4;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     border-radius: 2px;
-    border: 1px solid black;
-
-
 
 }
 .menu{
@@ -66,14 +64,13 @@
 .paraBase{
     margin-top: 35px;
     height: 40px;
-    width: 400px;
-    background-color: #ffffff;
+    width: 310px;
+    background-color: #59c0b4;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     border-radius: 2px;
-    border: 1px solid black;
 }
 .botao{
     margin-top: 15px;
@@ -87,7 +84,6 @@
 
 .resultado{
     padding: 5px 5px;
-    border: 1px solid black;
     border-radius: 3px;
     margin-top: 20px;
     font-size: 24px;
